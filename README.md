@@ -35,3 +35,4 @@ Démarrer votre navigateur à cette adresse [http://localhost:3000](http://local
 1. Afficher la première citation - [correction](https://github.com/sutter/workshop-react-newbie/tree/feature/step-1)
 2. Spliter les composants CSS & JS dans un dossier `components` - [correction](https://github.com/sutter/workshop-react-newbie/tree/feature/step-2)
 3. Ajouter une citation de manière random au chargement de la page - [correction](https://github.com/sutter/workshop-react-newbie/tree/feature/step-3)
+4. Ajouter un bouton permettant de charger une autre citation - [correction](https://github.com/sutter/workshop-react-newbie/tree/feature/step-4)
