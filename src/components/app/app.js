@@ -5,8 +5,17 @@ import './app.css';
 
 class App extends Component {
 
-  state = {
-    quote: quoteData[0]
+  state = {};
+
+  componentWillMount() {
+    this.getRandomQuote();
+  }
+
+  getRandomQuote = () => {
+    const randomNumber = Math.floor(Math.random() * quoteData.length);
+    this.setState({
+      quote: quoteData[randomNumber]
+    });
   };
 
   render() {
