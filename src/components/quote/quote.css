@@ -1,32 +1,28 @@
-.quote
-{
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     max-width: 600px;
-
     text-align: center;
 }
 
-.quote-text
-{
+.quote-text {
+    margin: 0;
     font-size: 20px;
     line-height: 1.25;
 }
 
-@media (min-width: 480px)
-{
-    .quote-text
-    {
+@media (min-width: 480px) {
+    .quote-text {
         font-size: 30px;
     }
 }
 
-.quote-author
-{
+.quote-author {
     font-size: 12px;
-
     margin-top: 30px;
-
     letter-spacing: 1px;
     text-transform: uppercase;
-
     color: #15deb0;
 }
