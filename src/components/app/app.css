@@ -1,0 +1,9 @@
+.app {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+  border: 1.25em solid #15deb0;
+}

@@ -9,6 +9,11 @@ Nous partirons sur une base nettoyée de [create-react-app](https://github.com/f
 
 ## Démarrage
 
+### Extensions navigateur
+
+* [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+* [Firefox](https://addons.mozilla.org/fr/firefox/addon/react-devtools/)
+
 ### Téléchargement des dépendances
 
 Télécharger les dépendences `npm` :
@@ -28,3 +33,4 @@ Démarrer votre navigateur à cette adresse [http://localhost:3000](http://local
 ## Étapes du projet :
 
 1. Afficher la première citation - [correction](https://github.com/sutter/workshop-react-newbie/tree/feature/step-1)
+2. Spliter les composants CSS & JS dans un dossier `components` [correction](https://github.com/sutter/workshop-react-newbie/tree/feature/step-2)
