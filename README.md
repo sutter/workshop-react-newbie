@@ -24,3 +24,7 @@ npm start
 ```
 
 Démarrer votre navigateur à cette adresse [http://localhost:3000](http://localhost:3000)
+
+## Étapes du projet :
+
+1. Afficher la première citation - [correction](https://github.com/sutter/workshop-react-newbie/tree/feature/step-1)
