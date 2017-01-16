@@ -18,5 +18,48 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-  background: #fff;
+  background: #161818;
+}
+
+
+/** ======================================
+ * Component : App
+ * ======================================= */
+
+.app {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+  border: 1.25em solid #15deb0;
+}
+
+/** ======================================
+ * Component : Quote
+ * ======================================= */
+
+.quote {
+  max-width: 600px;
+  text-align: center;
+}
+
+.quote-text {
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+@media (min-width: 480px) {
+  .quote-text {
+    font-size: 30px;
+  }
+}
+
+.quote-author {
+  color: #15deb0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  margin-top: 30px;
 }
