@@ -13,6 +13,7 @@ class App extends Component {
       text: undefined,
       author: undefined,
     },
+    quotesNumber: undefined,
     cta: true,
   };
 
@@ -25,11 +26,13 @@ class App extends Component {
 
     if ( unusedQuotes.length ) {
       this.setState({
-        quote: unusedQuotes[randomNumber]
+        quote: unusedQuotes[randomNumber],
+        quotesNumber: unusedQuotes.length
       });
     } else {
       this.setState({
-        cta: false
+        cta: false,
+        quotesNumber: 0
       });
       return;
     }
@@ -57,6 +60,9 @@ class App extends Component {
 
     return (
       <div className="app">
+        <div className="app-progress" style={{ paddingRight: this.state.quotesNumber * 10 + '%' }}>
+          <div className="app-progress-inner"></div>
+        </div>
         <div className="app-main">
           <Quote
             text={ this.state.quote.text }
