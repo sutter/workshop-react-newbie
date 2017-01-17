@@ -37,9 +37,7 @@ class App extends Component {
       return;
     }
 
-    unusedQuotes.map(function(quote, index) {
-      return quote.key = index;
-    });
+    unusedQuotes.map( (quote, index) => quote.key = index );
 
     const getRemainingQuotes = quote => {
       return quote.key !== randomNumber;
