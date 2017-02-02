@@ -36,3 +36,5 @@ Démarrer votre navigateur à cette adresse [http://localhost:3000](http://local
 2. Spliter les composants CSS & JS dans un dossier `components` - [correction](https://github.com/sutter/workshop-react-newbie/tree/feature/step-2)
 3. Ajouter une citation de manière random au chargement de la page - [correction](https://github.com/sutter/workshop-react-newbie/tree/feature/step-3)
 4. Ajouter un bouton permettant de charger une autre citation - [correction](https://github.com/sutter/workshop-react-newbie/tree/feature/step-4)
+5. Afficher les citations dans un ordre aléatoire une seule fois, puis supprimer le bouton
+ - [correction](https://github.com/sutter/workshop-react-newbie/tree/feature/step-5)
